@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/uIPO/',   // match your repo name EXACTLY (case matters)
+  base: '/uIPO/', // case-sensitive — matches your repo name
 })
